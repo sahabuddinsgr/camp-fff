@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="744" height="452" viewBox="0 0 744 452">
+  <g id="form" transform="translate(-452.5 -7296)">
+    <g id="Group_14037" data-name="Group 14037" transform="translate(24.5 -3359)">
+      <rect id="Rectangle_34" data-name="Rectangle 34" width="265" height="70" rx="35" transform="translate(907 11037)" fill="#6f69f2"/>
+      <text id="SUBMIT_MESSAGE" data-name="SUBMIT MESSAGE" transform="translate(945 11081)" fill="#fff" font-size="24" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">SUBMIT MESSAGE</tspan></text>
+    </g>
+    <g id="Rectangle_72" data-name="Rectangle 72" transform="translate(452.5 7296)" fill="#f7f5ff" stroke="#c0bcd2" stroke-width="1">
+      <rect width="744" height="60" rx="30" stroke="none"/>
+      <rect x="0.5" y="0.5" width="743" height="59" rx="29.5" fill="none"/>
+    </g>
+    <g id="Rectangle_916" data-name="Rectangle 916" transform="translate(452.5 7506)" fill="#f7f5ff" stroke="#c0bcd2" stroke-width="1">
+      <rect width="744" height="60" rx="30" stroke="none"/>
+      <rect x="0.5" y="0.5" width="743" height="59" rx="29.5" fill="none"/>
+    </g>
+    <rect id="Rectangle_75" data-name="Rectangle 75" width="744" height="60" rx="30" transform="translate(452.5 7436)" fill="#a7a4fe"/>
+    <g id="Rectangle_73" data-name="Rectangle 73" transform="translate(452.5 7366)" fill="#f7f5ff" stroke="#c0bcd2" stroke-width="1">
+      <rect width="744" height="60" rx="30" stroke="none"/>
+      <rect x="0.5" y="0.5" width="743" height="59" rx="29.5" fill="none"/>
+    </g>
+    <g id="Rectangle_915" data-name="Rectangle 915" transform="translate(452.5 7576)" fill="#f7f5ff" stroke="#c0bcd2" stroke-width="1">
+      <rect width="744" height="60" rx="30" stroke="none"/>
+      <rect x="0.5" y="0.5" width="743" height="59" rx="29.5" fill="none"/>
+    </g>
+    <g id="Rectangle_918" data-name="Rectangle 918" transform="translate(452.5 7724)" fill="#f7f5ff" stroke="#c0bcd2" stroke-width="1">
+      <rect width="24" height="24" rx="12" stroke="none"/>
+      <rect x="0.5" y="0.5" width="23" height="23" rx="11.5" fill="none"/>
+    </g>
+    <g id="Rectangle_919" data-name="Rectangle 919" transform="translate(537.5 7724)" fill="#f7f5ff" stroke="#c0bcd2" stroke-width="1">
+      <rect width="24" height="24" rx="12" stroke="none"/>
+      <rect x="0.5" y="0.5" width="23" height="23" rx="11.5" fill="none"/>
+    </g>
+    <g id="Rectangle_920" data-name="Rectangle 920" transform="translate(620.5 7724)" fill="#f7f5ff" stroke="#c0bcd2" stroke-width="1">
+      <rect width="24" height="24" rx="12" stroke="none"/>
+      <rect x="0.5" y="0.5" width="23" height="23" rx="11.5" fill="none"/>
+    </g>
+    <text id="Full_Name" data-name="Full Name" transform="translate(518.5 7331)" fill="#3d3d4d" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="-40.083" y="0">Full Name</tspan></text>
+    <text id="Full_Name-2" data-name="Full Name" transform="translate(518.5 7541)" fill="#3d3d4d" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="-40.083" y="0">Full Name</tspan></text>
+    <text id="Email_Address" data-name="Email Address" transform="translate(480.5 7401)" fill="#3d3d4d" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Email Address</tspan></text>
+    <text id="Email_Address-2" data-name="Email Address" transform="translate(480.5 7611)" fill="#3d3d4d" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Email Address</tspan></text>
+    <text id="This_is_a_radio_button_section_just_in_case" data-name="This is a radio button section just in case" transform="translate(452.5 7704)" fill="#3d3d4d" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">This is a radio button section just in case</tspan></text>
+    <text id="Yes" transform="translate(482.5 7741)" fill="#3d3d4d" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Yes</tspan></text>
+    <text id="No" transform="translate(567.5 7741)" fill="#3d3d4d" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">No</tspan></text>
+    <text id="Prefer_not_to_say" data-name="Prefer not to say" transform="translate(650.5 7741)" fill="#3d3d4d" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Prefer not to say</tspan></text>
+    <text id="Subject_Please_select_one_" data-name="Subject (Please select one)" transform="translate(480.5 7471)" fill="#fff" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Subject (Please select one)</tspan></text>
+    <path id="np_plus_2310574_000000" d="M19.214,12v9.919h9.919V19.214H21.919V12Z" transform="translate(1128.588 7469.061) rotate(-45)" fill="#3d3d4d"/>
+  </g>
+</svg>

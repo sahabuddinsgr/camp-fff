@@ -1,0 +1,1489 @@
+/***********************************
+MEDIA QUERIES
+***********************************/
+
+@media only screen and (max-width: 1480px) {
+
+	.camp-fff-photos {
+
+		&__card {
+
+			.media {
+				border: 10px solid $white;
+			}
+
+			&.has-rotate-1 {
+				max-width: 317px;
+				transform: rotate(8deg);
+			}
+
+			&.has-rotate-2 {
+				max-width: 160px;
+				margin-top: 50px;
+				transform: rotate(-16deg);
+			}
+
+			&.has-rotate-3 {
+				margin-top: 70px;
+				max-width: 317px;
+				transform: rotate(-2deg);
+
+				.pin-badge {
+					top: -36px;
+				}
+			}
+
+			&.has-rotate-4 {
+				max-width: 160px;
+				margin-top: 40px;
+				transform: rotate(19deg);
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 1199px) {
+	.container, .container-fluid {
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+
+
+	/***********************************
+	HOME PAGE STYLE
+	***********************************/
+	.welcome-camp-fff {
+		padding: 100px 0 100px;
+
+		&__content {
+			margin-left: 0px;
+		}
+	}
+
+	.speaker-teams {
+		padding: 100px 0 100px;
+
+	
+		&__card-text {
+
+			.name {
+				padding: 24px 0 36px;
+			}
+		}
+	}
+
+	.camp-fff-photos {
+		padding: 80px 0;
+
+		.container-fluid {
+			padding-left: 30px;
+			padding-right: 30px;
+		}
+		.entry-title {
+			margin-bottom: 40px;
+		}
+
+		&__card {
+
+			&.has-rotate-2 {
+				max-width: 170px;
+				margin-top: 50px;
+				transform: rotate(-16deg);
+			}
+
+			&.has-rotate-4 {
+				max-width: 170px;
+				margin-top: 40px;
+				transform: rotate(19deg);
+			}
+		}
+	}
+
+}/* 1199 */
+
+
+
+@media only screen and (max-width: 1024px) {
+	h1, .h1 {font-size: 52px;line-height: 62px;}
+	h2, .h2 {font-size: 44px;line-height: 56px;}
+
+
+	/***********************************
+	HOME PAGE STYLE
+	***********************************/
+	.welcome-camp-fff {
+		margin: 26px 0;
+		padding: 80px 0;
+
+		.row.align-items-center {
+			align-items: start !important;
+		}
+
+		&__content {
+			margin-left: 0px;
+
+			.wrapper {
+				display: block;
+
+				&:not(:last-child) {
+					margin-bottom: 30px;
+				}
+
+				.date {
+					font-size: 32px;
+					line-height: 1.2;
+					margin-bottom: 15px;
+					@include letter-spacing(25, 32);
+
+					span {
+						font-size: 21px;
+						@include letter-spacing(25, 21);
+					}
+				}
+
+				ul.list-unstyled {
+
+					li {
+
+						&:not(:last-child) {
+							margin-bottom: 6px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.speaker-teams {
+		padding: 100px 0 100px;
+
+	
+		&__card-text {
+
+			.name {
+				padding: 17px 0 27px;
+			}
+		}
+	}
+
+}/* 1024 */
+
+@media only screen and (max-width: 991px) {
+	h1, .h1 {font-size: 48px;line-height: 60px;}
+	h2, .h2 {font-size: 42px;line-height: 48px;}
+	h3, .h3 {font-size: 34px;line-height: 40px;}
+
+	.container, .container-fluid {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+
+	
+	/***********************************
+	HEADER STYLE
+	***********************************/
+	.scroll-up {
+
+		.header, .header.transparent {
+
+			.navbar {
+				padding: 13px 0;
+			}
+		}
+	}
+	.header {
+
+		.container-fluid {
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+
+		.navbar {
+			padding: 20px 0 10px;
+
+			.navbar-header {
+
+				.navbar-brand {
+					padding: 0;
+
+					img {
+						max-width: 200px;
+					}
+				}
+			}
+
+			.navbar-collapse {
+
+				.navbar-nav {
+					align-items: center;
+
+					> li {
+						
+						&:not(:first-child) {
+							margin-left: 15px; 
+						}
+
+						.navbar-toggle {
+							height: 54px;
+							min-width: 54px;
+						}
+
+
+						&.menu-btn {
+
+							a {
+								font-size: 18px;
+								padding: 18px 32px;
+								@include letter-spacing(15,18);
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	/***********************************
+	BANNER STYLE
+	***********************************/
+	.banner {
+		padding-top: 35px;
+
+		&__content  {
+
+			a.brand {
+				margin-bottom: 0;
+
+				img {
+					max-width: 200px;
+				}
+			}
+
+			.arc-title {
+
+				&__fill {
+					padding-top: 10px;
+				}
+
+				&__stroke {
+					top: 5px;
+					position: absolute;
+				}
+
+				&__fill, &__stroke {
+					width: 670px;
+					height: 130px;
+
+					text {
+						font-size: 82px;
+					}
+				}
+			}
+
+			.arc-sub-title {
+				width: 670px;
+				height: 100px;
+
+				text {
+					font-size: 24px;
+					letter-spacing: 2.42px;
+				}
+			}
+
+			.sub-title {
+				margin-top: -80px;
+			}
+
+			.desc {
+				font-size: 24px;
+				margin-top: 0px;
+				@include letter-spacing(100, 24);
+
+				span {
+					font-size: 48px;
+					margin-left: 10px;
+					margin-right: 5px;
+				}
+			}
+		}
+
+		&__bottom {
+			padding-top: 30px;
+
+			.scroll-trigger {
+				font-size: 36px;
+			}
+		}
+	}
+
+
+	/***********************************
+	HOME PAGE STYLE
+	***********************************/
+	.welcome-camp-fff {
+		padding: 60px 0;
+
+		&__card {
+			margin-bottom: 30px;
+		}
+
+		&__content {
+
+			.wrapper {
+				display: grid;
+				grid-template-columns: 36% 64%;
+
+				&:not(:last-child) {
+					margin-bottom: 40px;
+				}
+
+				.date {
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+
+	.camp-fff-photos {
+		padding: 60px 0 100px;
+
+		.container-fluid {
+			padding-left: 30px;
+			padding-right: 30px;
+		}
+
+		
+		.entry-title {
+			margin-bottom: 40px;
+		}
+
+		&__card {
+			
+			.media {
+				border: 10px solid $white;
+			}
+
+			.text {
+				padding: 0 10px 15px;
+			}
+
+			&.has-rotate-1 {
+				max-width: 300px;
+				transform: rotate(8deg);
+			}
+
+			&.has-rotate-2 {
+				max-width: 200px;
+				margin-top: 30px;
+				transform: rotate(-16deg);
+			}
+
+			&.has-rotate-3 {
+				margin-top: 50px;
+				max-width: 317px;
+				transform: rotate(-2deg);
+
+				.pin-badge {
+					top: -36px;
+				}
+			}
+
+			&.has-rotate-4 {
+				max-width: 200px;
+				margin-top: 20px;
+				transform: rotate(19deg);
+			}
+		}
+	}
+
+	.camp-fff-faqs {
+		padding-top: 100px;
+	}
+
+	.hm-sponsors {
+		padding: 40px 0 30px;
+
+		.entry-title {
+			margin-bottom: 30px;
+
+			.title {
+				@include letter-spacing(25, 48);
+			}
+		}
+
+
+		&__item {
+			min-height: 246px;
+		}
+	}
+
+	.hm-partners {
+		padding: 40px 0 30px;
+
+		.entry-title {
+			margin-bottom: 32px;
+
+			.title {
+				@include letter-spacing(25, 48);
+			}
+		}
+
+		.last-none {
+			margin-bottom: -30px;
+		}
+
+		&__item {
+			min-height: 120px;
+			margin-bottom: 30px;
+		}
+	}
+
+	.hm-development {
+		padding: 40px 0 80px;
+
+		.entry-title {
+			margin-bottom: 30px;
+
+			.title {
+				@include letter-spacing(25, 48);
+			}
+
+		}
+	}
+
+	/***********************************
+	FOOTER STYLE
+	***********************************/
+	.footer {
+		padding-top: 80px;
+	}
+
+
+}/* 991 */
+
+@media only screen and (max-width: 840px) {
+
+	/***********************************
+	HOME PAGE STYLE
+	***********************************/
+	.speaker-teams {
+
+	
+		&__card-text {
+
+			.name {
+				padding: 12px 0 24px;
+			}
+		}
+	}
+
+}/* 1024 */
+
+
+@media only screen and (max-width : 767px) {
+	h1, .h1 {font-size: 42px;line-height: 48px;}
+	h2, .h2 {font-size: 36px;line-height: 42px;}
+	h3, .h3 {font-size: 32px;line-height: 38px;}
+	section {
+		padding: 35px 0;
+	}
+
+	.container, .container-fluid {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+
+	/***********************************
+	HEADER STYLE
+	***********************************/
+	.scroll-up {
+
+		.header, .header.transparent {
+
+			.navbar {
+				padding: 15px 0;
+			}
+		}
+	}
+
+	.header {
+
+		.container-fluid {
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+
+		.navbar {
+			padding: 15px 0 15px;
+
+			.navbar-header {
+
+				.navbar-brand {
+					padding: 0;
+
+					img {
+						max-width: 160px;
+					}
+				}
+			}
+
+			.navbar-collapse {
+
+				.navbar-nav {
+
+					> li {
+						
+						.navbar-toggle {
+							height: 40px;
+							min-width: 40px;
+
+						    .icon-bar {
+						    	width: 15px;
+						    	height: 3px;
+
+							    &:not( :last-child ) {
+							   		margin-bottom: 2px;
+							    }
+						    }
+						}
+
+
+						&.menu-btn {
+
+							a {
+								font-size: 16px;
+								padding: 12px 24px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	/***********************************
+	BANNER STYLE
+	***********************************/
+	.banner {
+		padding-top: 20px;
+		padding-bottom: 60px;
+
+		&__content  {
+
+			a.brand {
+				margin-bottom: 10px;
+
+				img {
+					max-width: 160px;
+				}
+			}
+
+			.arc-title {
+
+				&__fill {
+					top: 0;
+				}
+
+				&__fill, &__stroke {
+					margin-top: -30px;
+					position: absolute;
+
+					text {
+						font-size: 60px;
+					}
+				}
+			}
+
+			.arc-sub-title {
+				top: -65px;
+				position: absolute;
+
+				text {
+					font-size: 18px;
+					letter-spacing: 2.42px;
+				}
+			}
+
+			.title {
+				height: 90px;
+				overflow: hidden;
+			}
+
+			.sub-title {
+				height: 30px;
+				display: flex;
+				overflow: hidden;
+				margin-top: -15px;
+				position: relative;
+				justify-content: center;
+			}
+
+			.desc {
+				font-size: 18px;
+				margin-top: 0px;
+				@include letter-spacing(100, 18);
+
+				span {
+					font-size: 36px;
+					margin-left: 5px;
+					margin-right: 2px;
+				}
+			}
+		}
+	}
+
+
+	/***********************************
+	HOME PAGE STYLE
+	***********************************/
+	.welcome-camp-fff {
+		padding: 50px 0;
+	}
+
+	.speaker-teams {
+		padding: 60px 0 80px;
+
+	
+		&__card-text {
+
+			.name {
+				padding: 24px 0 36px;
+			}
+		}
+	}
+
+
+	.camp-fff-photos {
+		padding: 60px 0 60px;
+
+		
+		.entry-title {
+			margin-bottom: 50px;
+		}
+
+		.last-none {
+			margin-bottom: -60px;
+		}
+
+		&__card {
+			margin-bottom: 60px;
+
+			.text {
+				padding: 0 10px 15px;
+			}
+
+			&.has-rotate-1 {
+				max-width: 100%;
+				transform: rotate(0deg);
+			}
+
+			&.has-rotate-2 {
+				max-width: 100%;
+				margin-top: 0;
+				transform: rotate(0deg);
+			}
+
+			&.has-rotate-3 {
+				margin-top: 0;
+				max-width: 100%;
+				transform: rotate(0deg);
+
+				.pin-badge {
+					top: -36px;
+				}
+			}
+
+			&.has-rotate-4 {
+				max-width: 100%;
+				margin-top: 0;
+				transform: rotate(0deg);
+			}
+		}
+	}
+
+	.camp-fff-faqs {
+		padding: 80px 0 40px;
+
+		.entry-title {
+			margin-bottom: 40px;
+		}
+
+		.accordion {
+
+			.card {
+
+				.card-header  {
+
+					.card-link {
+						font-size: 21px;
+					}
+				}
+			}
+
+			.card-body {
+
+				p {
+	    			line-height: 24px;
+				}
+			}
+		}
+	}
+
+	.camp-fff-map {
+		padding: 40px 0 0;
+		margin-bottom: 60px;
+
+		&__card {
+			padding: 40px 30px 50px;
+
+			.icon-wrap {
+
+				i {
+					font-size: 36px;
+				}
+			}
+
+			.before-pattern {
+				padding: 10px;
+			}
+		}
+
+		#map {
+			height: 500px;
+			margin-top: -125px;
+		}
+	}
+
+	.camp-fff-forms {
+	    padding: 40px 0px 60px;
+
+	    &__wrapper {
+	    	min-height: 630px;
+	    }
+	}
+
+	.hm-sponsors {
+		padding: 30px 0 20px;
+
+		.entry-title {
+			margin-bottom: 30px;
+
+			.title {
+				@include letter-spacing(25, 42);
+			}
+		}
+
+
+		&__item {
+			min-height: 200px;
+		}
+	}
+
+	.hm-partners {
+		padding: 30px 0 20px;
+
+		.entry-title {
+			margin-bottom: 30px;
+
+			.title {
+				@include letter-spacing(25, 42);
+			}
+		}
+
+		.last-none {
+			margin-bottom: -20px;
+		}
+
+		&__item {
+			min-height: 90px;
+			margin-bottom: 20px;
+		}
+	}
+
+	.hm-development {
+		padding: 30px 0 60px;
+
+		.entry-title {
+			margin-bottom: 30px;
+
+			.title {
+				@include letter-spacing(25, 42);
+			}
+
+		}
+	}
+
+	/***********************************
+	FOOTER STYLE
+	***********************************/
+	.footer {
+		padding-top: 60px;
+
+		&__content {
+			.arc-title {
+
+				&__fill {
+					top: 0;
+				}
+
+				&__fill, &__stroke {
+					margin-top: -30px;
+					position: absolute;
+
+					text {
+						font-size: 60px;
+					}
+				}
+			}
+
+			.arc-sub-title {
+				top: -65px;
+				position: absolute;
+
+				text {
+					font-size: 18px;
+					letter-spacing: 2.42px;
+				}
+			}
+
+			.title {
+				height: 90px;
+				overflow: hidden;
+			}
+
+			.sub-title {
+				height: 30px;
+				display: flex;
+				overflow: hidden;
+				margin-top: -15px;
+				position: relative;
+				justify-content: center;
+			}
+
+			.desc {
+				font-size: 18px;
+				margin-top: 0px;
+				@include letter-spacing(100, 18);
+
+				span {
+					font-size: 36px;
+					margin-left: 5px;
+					margin-right: 2px;
+				}
+			}
+		}
+
+		&__before-media {
+			height: initial;
+			margin-top: -40px;
+			background: none;
+
+			img {
+				display: block;
+			}
+		}
+	}
+
+
+}/* 767 */
+
+@media only screen and (max-width : 680px) {
+	h1, .h1 {font-size: 36px;line-height: 42px;}
+	h2, .h2 {font-size: 32px;line-height: 38px;}
+	h3, .h3 {font-size: 30px;line-height: 36px;}
+	h4, .h4 {font-size: 28px;line-height: 34px;}
+	h5, .h5 {font-size: 21px;line-height: 30px;}
+
+	/***********************************
+	HOME PAGE STYLE
+	***********************************/
+	.speaker-teams {
+
+	
+		&__card-text {
+
+			.name {
+				padding: 17px 0 30px;
+			}
+		}
+	}
+
+}/* 680 */
+
+
+@media only screen and (max-width : 575px) {
+	h1, .h1 {font-size: 34px;line-height: 38px;}
+	h2, .h2 {font-size: 30px;line-height: 36px;}
+	h3, .h3 {font-size: 28px;line-height: 34px;}
+	h4, .h4 {font-size: 24px;line-height: 32px;}
+	h5, .h5 {font-size: 18px;line-height: 24px;}
+	h6, .h6 {font-size: 16px;line-height: 21px;}
+
+	section {
+		padding: 30px 0;
+	}
+
+	.btn {
+		font-size: 18px;
+		padding: 12px 30px;
+	}
+
+	/***********************************
+	HEADER STYLE
+	***********************************/
+	.header {
+
+		.navbar {
+
+			.navbar-header {
+				opacity: 1;
+				visibility: visible;
+
+				.navbar-brand {
+					padding: 0;
+
+					img {
+						max-width: 140px;
+					}
+				}
+			}
+
+		}
+	}
+
+	/***********************************
+	BANNER STYLE
+	***********************************/
+	.banner {
+		padding-top: 70px;
+
+		&__content  {
+
+			a.brand {
+				display: none;
+			}
+		}
+
+		&__media {
+			padding: 0 110px;
+
+			img {
+				margin-left: 5px;
+			}
+		}
+
+		&__before-pattern {
+			height: initial;
+			background: none;
+
+			img {
+				display: block;
+			}
+		}
+	}
+
+
+	/***********************************
+	HOME PAGE STYLE
+	***********************************/
+	.welcome-camp-fff {
+		padding: 40px 0;
+
+		&__card {
+			padding: 60px 15px;
+			margin-bottom: 30px;
+
+			.desc {
+				margin-bottom: 30px;
+			}
+
+			.btn {
+				min-width: 140px;
+			}
+
+			.before-pattern {
+
+				img {
+					max-width: 55px;
+				}
+			}
+		}
+
+		&__content {
+
+			.wrapper {
+				display: grid;
+				grid-template-columns: 36% 64%;
+
+				&:not(:last-child) {
+					margin-bottom: 40px;
+				}
+
+				.date {
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+
+
+	.speaker-teams {
+		padding: 40px 0 60px;
+
+		.entry-title {
+			margin-bottom: 20px;
+		}
+
+		.last-none {
+			margin-bottom: 40px;
+		}
+
+		&__card {
+			margin-bottom: 40px;
+		}
+
+		&__card-text {
+
+			.name {
+				padding: 32px 0 59px;
+			}
+		}
+	}
+
+	.camp-fff-photos {
+		padding: 40px 0 60px;
+
+	}
+
+	.camp-fff-faqs {
+		padding: 60px 0 30px;
+
+		.entry-title {
+			margin-bottom: 40px;
+		}
+	}
+
+	.camp-fff-map {
+		padding: 30px 0 0;
+		margin-bottom: 30px;
+
+		&__card {
+			padding: 30px 24px 40px;
+
+			.icon-wrap {
+
+				i {
+					font-size: 36px;
+				}
+			}
+
+			p {
+
+				a {
+					font-weight: 400;
+				}
+			}
+
+			.before-pattern {
+				padding: 10px;
+			}
+		}
+
+		#map {
+			height: 500px;
+			margin-top: -125px;
+		}
+
+	}
+
+	.camp-fff-forms {
+	    padding: 30px 0px 40px;
+
+	    &__wrapper {
+	    	min-height: 430px;
+	    }
+
+        .navbar-panel {
+
+    		.nav {
+
+    		    li {
+
+    		    	a {
+    				    margin: 3px;
+    		    		font-size: 14px;
+    				    line-height: 1;
+    				    
+
+    				    &:first-child {
+    				    	padding: 12px 20px;
+    				    }
+    		    	}
+    		    }
+    		}
+        }
+	}
+
+	.hm-sponsors {
+		padding: 20px 0 10px;
+
+		.entry-title {
+			margin-bottom: 30px;
+
+			.title {
+				@include letter-spacing(25, 42);
+			}
+		}
+
+		&__item {
+			min-height: 200px;
+		}
+	}
+
+	.hm-partners {
+		padding: 20px 0 10px;
+
+		.entry-title {
+			margin-bottom: 30px;
+
+			.title {
+				@include letter-spacing(25, 42);
+			}
+		}
+
+		.last-none {
+			margin-bottom: -20px;
+		}
+
+		&__item {
+			min-height: 90px;
+			margin-bottom: 20px;
+		}
+	}
+
+	.hm-development {
+		padding: 20px 0 40px;
+
+		.entry-title {
+			margin-bottom: 30px;
+
+			.title {
+				@include letter-spacing(25, 34);
+			}
+
+		}
+	}
+
+	/***********************************
+	FOOTER STYLE
+	***********************************/
+	.footer {
+		padding-top: 40px;
+
+		&__content {
+
+			.arc-title {
+
+
+				&__fill, &__stroke {
+					width: 670px;
+					
+				}
+			}
+
+			.arc-sub-title {
+				width: 670px;
+			}
+
+			.btn img {
+			    margin-right: 10px;
+			    max-width: 28px;
+			}
+		}
+
+
+		&__before-media {
+			height: initial;
+			margin-top: 0px;
+			background: none;
+		}
+	}
+
+}/* 575 */
+
+@media only screen and (max-width : 480px) {
+	body { font-size: 18px; line-height: 30px; }
+
+	section {
+		padding: 20px 0;
+	}
+
+	p {
+	    margin: 0 0 20px;
+	}
+
+
+	/***********************************
+	HEADER STYLE
+	***********************************/
+	.header {
+
+		.navbar {
+
+			.navbar-header {
+
+				.navbar-brand {
+					padding: 0;
+
+					img {
+						max-width: 120px;
+					}
+				}
+			}
+
+		}
+	}
+
+	/***********************************
+	BANNER STYLE
+	***********************************/
+	.banner {
+		padding-top: 70px;
+		padding-bottom: 40px;
+
+		.arc-title {
+
+			&__fill {
+				top: 0;
+			}
+
+			&__fill, &__stroke {
+
+				text {
+					font-size: 48px;
+				}
+			}
+		}
+
+		.arc-sub-title {
+
+			text {
+				font-size: 16px;
+				letter-spacing: 1.42px;
+			}
+		}
+
+		.desc {
+			font-size: 16px;
+			@include letter-spacing(50, 16);
+
+			span {
+				font-size: 24px;
+			}
+		}
+
+		&__media {
+			padding: 0 90px;
+			margin-top: 20px;
+
+			img {
+				margin-left: 3px;
+			}
+		}
+
+		&__bottom {
+			padding-top: 20px;
+
+			.scroll-trigger {
+				font-size: 30px;
+			}
+		}
+	}
+
+	/***********************************
+	HOME PAGE STYLE
+	***********************************/
+	.welcome-camp-fff {
+		padding: 30px 0;
+
+		&__content {
+
+			.wrapper {
+				display: block;
+
+				&:not(:last-child) {
+					margin-bottom: 30px;
+				}
+
+				.date {
+					margin-bottom: 15px;
+				}
+			}
+		}
+	}
+
+	.speaker-teams {
+
+	
+		&__card-text {
+
+			.name {
+				padding: 32px 0 43px;
+			}
+		}
+	}
+
+	.camp-fff-forms {
+	    padding: 30px 0px 40px;
+
+	    &__wrapper {
+	    	min-height: 430px;
+	    }
+
+        .navbar-panel {
+
+    		.nav {
+
+    		    li {
+
+    		    	a {
+    				    margin: 3px;
+    		    		font-size: 14px;
+    				    line-height: 1;
+    				    
+
+    				    &:first-child {
+    				    	padding: 12px 15px;
+    				    }
+    		    	}
+    		    }
+    		}
+        }
+	}
+
+	.hm-sponsors {
+		padding: 20px 0 10px;
+
+		.entry-title {
+			margin-bottom: 20px;
+		}
+
+		&__item {
+			min-height: 160px;
+		}
+	}
+
+	.hm-partners {
+		padding: 20px 0 10px;
+
+		.entry-title {
+			margin-bottom: 20px;
+		}
+
+		.last-none {
+			margin-bottom: -20px;
+		}
+
+		&__item {
+			min-height: 90px;
+			margin-bottom: 20px;
+		}
+	}
+
+	.hm-development {
+		padding: 20px 0 30px;
+
+		.entry-title {
+			margin-bottom: 20px;
+
+			.title {
+				@include letter-spacing(25, 34);
+			}
+
+		}
+	}
+
+	/***********************************
+	FOOTER STYLE
+	***********************************/
+	.footer {
+		padding-top: 10px;
+
+		&__content {
+
+			.arc-title {
+
+				&__fill {
+					top: 0;
+				}
+
+				&__fill, &__stroke {
+
+					text {
+						font-size: 48px;
+					}
+				}
+			}
+
+			.arc-sub-title {
+
+				text {
+					font-size: 16px;
+					letter-spacing: 1.42px;
+				}
+			}
+
+			.desc {
+				font-size: 16px;
+				@include letter-spacing(50, 16);
+
+				span {
+					font-size: 24px;
+				}
+			}
+
+			.btn img {
+			    margin-right: 10px;
+			    max-width: 28px;
+			}
+		}
+	}
+	
+
+}/* 480 */
+
+@media only screen and (max-width : 420px) {
+	/***********************************
+	HOME PAGE STYLE
+	***********************************/
+	.speaker-teams {
+
+	
+		&__card-text {
+
+			.name {
+				padding: 26px 0 40px;
+			}
+		}
+	}
+}/* 420 */
+
+@media only screen and (max-width : 375px) {
+	/***********************************
+	HOME PAGE STYLE
+	***********************************/
+	.speaker-teams {
+
+	
+		&__card-text {
+
+			.name {
+				padding: 19px 0 34px;
+			}
+		}
+	}
+}/* 375 */
+
+@media only screen and (max-width : 320px) {
+
+}/* 320 */
